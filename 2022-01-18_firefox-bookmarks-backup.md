@@ -15,10 +15,12 @@ Firefox 終了時に Bookmark を HTML 形式で任意のディレクトリに�
 
 1. [about:config](about:config) を開く
 2. 以下設定をする
-   | key | value |
-   | -------------------------------- | -------------------------------------------- |
-   | browser.bookmarks.autoExportHTML | true |
-   | browser.bookmarks.file | 保存先のパス（ファイル名含む） |
+
+| key                              | value                          |
+| -------------------------------- | ------------------------------ |
+| browser.bookmarks.autoExportHTML | true                           |
+| browser.bookmarks.file           | 保存先のパス（ファイル名含む） |
+
 3. Firefox を再起動する。
 
 これで、Firefox 終了時に保存先パスにエクスポートされます。
